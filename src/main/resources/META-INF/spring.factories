@@ -1,0 +1,12 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xwc1125.security.swagger.filter.SecurityAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration.exclude=\
+org.springdoc.core.SpringDocConfiguration,\
+org.springdoc.core.SpringDocConfigProperties,\
+org.springdoc.webmvc.ui.SwaggerConfig,\
+org.springdoc.core.SwaggerUiConfigProperties,\
+org.springdoc.core.SwaggerUiConfigParameters,\
+org.springdoc.core.SwaggerUiOAuthProperties,\
+org.springdoc.webmvc.core.SpringDocWebMvcConfiguration,\
+org.springdoc.webmvc.core.MultipleOpenApiSupportConfiguration
