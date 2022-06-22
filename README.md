@@ -41,7 +41,7 @@ dependencies {
 
 在Application上添加`@EnableSwaggerSecurity`注解
 
-![img.png](doc/simg.png)
+![img.png](./doc/img.png)
 
 ### application中的配置：
 
