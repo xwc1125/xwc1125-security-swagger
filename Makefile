@@ -2,7 +2,7 @@ update-version:
 	mvn -N versions:update-child-modules
 	@echo "Update success."
 package:
-	mvn clean package -DskipTests
+	mvn clean package -D maven.javadoc.skip=false
 install:
 	mvn clean install -DskipTests
 deploy:
